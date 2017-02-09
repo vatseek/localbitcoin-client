@@ -1,5 +1,5 @@
 {
-  "name": "localbitcoin-client",
+  "name": "localbitcoins-client",
   "version": "0.0.1",
   "description": "LocalBitcoins API wrapper for NodeJS",
   "keywords": [
