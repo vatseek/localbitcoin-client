@@ -1,0 +1,34 @@
+{
+  "name": "localbitcoin-client",
+  "version": "0.0.1",
+  "description": "LocalBitcoins API wrapper for NodeJS",
+  "keywords": [
+    "localbitcoins",
+    "api",
+    "btc",
+    "bitcoin"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vatseek/localbitcoin-client.git"
+  },
+  "author": "VatSeek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vatseek/localbitcoin-client/issues"
+  },
+  "homepage": "https://github.com/vatseek/localbitcoin-client#readme",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0"
+  },
+  "engines": {
+    "node": ">=0.12"
+  },
+  "readmeFilename": "README.md"
+}
