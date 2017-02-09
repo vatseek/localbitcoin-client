@@ -41,7 +41,7 @@ function LBCClient(key, secret, opt) {
         } else if (methods.private && methods.private.indexOf(method) !== -1) {
             return privateMethod('POST', method, params, callback);
         } else if (methods.get && methods.get.indexOf(method) !== -1) {
-            if (params.post_url) {
+            if (params && params.post_url) {
                 method = method + params.post_url;
                 delete(params.post_url);
             }
